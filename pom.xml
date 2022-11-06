@@ -15,7 +15,9 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
-
+  <properties>
+  <sonar.projectKey>maven-helloworld</sonar.projectKey>
+</properties>
   <modules>
     <module>server</module>
     <module>webapp</module>
